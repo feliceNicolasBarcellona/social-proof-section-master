@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+  :root {
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+    --font-size-15: 15px;
+    --font-family: 'League Spartan', sans-serif;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-700: 700;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    font-size: var(--font-size-15);
+    font-family: var(--font-family);
+  }
+
+  body {
+    background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top 0rem left 0rem, right 0rem top 14.3333rem;
+  }
+
+  main {
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 1110px;
+    height: 584px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .top-sections {
+    width: 50%;
+    height: 292.5px;
+    margin-bottom: 42px;
+  }
+
+  .title {
+    font-size: 3.4667rem;
+    font-weight: var(--font-weight-700);
+    color: var(--very-dark-magenta);
+    line-height: 0.98em;
+    margin-top: 1rem;
+  }
+  
+  .description {
+    font-size: 1.1867rem;
+    line-height: 1.4em;
+    color:var(--dark-grayish-magenta);
+    margin-top: 1.5333rem;
+    font-weight: var(--font-weight-400);
+  }
+
+  .rate {
+    background-color: var(--light-grayish-magenta);
+    display: flex;
+    align-items: center;
+    width: 29.6rem;
+    height: 3.8rem;
+    border-radius: 0.5rem;
+    padding-left: 2.0667rem;
+  }
+
+  .t-right-suv {
+    display: flex;
+  }
+
+  .a {
+    margin: 2.8667rem 0 0 1.2667rem;
+  }
+
+  .b {
+    margin: 1rem 0 0 4.3333rem;
+  }
+
+  .c {
+    margin: 1rem 0 0 7.2667rem;
+  }
+
+  svg {
+    margin-right: 0.2667rem;
+  }
+
+  .rate-label {
+    color: var(--very-dark-magenta);
+    font-weight: var(--font-weight-700);
+    font-size: 1.1333rem;
+    margin-left: 1.9333rem;
+  }
+
+  br {
+    display: block;
+  }
+
+  .bottom-sections {
+    width: 24.6667rem;
+    height: 17.7rem;
+  }
+
+  .b-left {
+    display: flex;
+  }
+
+  .b-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .b-right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+  }
+
+  .review-card {
+    height: 15.6rem;
+    width: 23.3333rem;
+    background-color: var(--very-dark-magenta);
+    border-radius: 0.5rem;
+    padding: 2.6667rem 0 0 2.1333rem;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    height: 2.8rem; 
+  }
+
+  .user-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 2.6667rem;
+    margin-left: 1.4667rem;
+  }
+
+  .name {
+    color: var(--white);
+    font-weight: var(--font-weight-700);
+    font-size: 1.14rem;
+  }
+  
+  .verified-label {
+    color: var(--soft-pink);
+    font-size: 1.1467rem;
+  }
+
+  .review {
+    color: var(--white);
+    line-height: 1.3em;
+    margin-top: 1.8667rem;
+    font-size: 1.1267rem;
+  }
+
+  .attribution {
+    font-size: 0.7333rem;
+    text-align: center;
+    font-family: var(--font-family);
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
