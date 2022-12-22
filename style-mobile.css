@@ -7,20 +7,31 @@
 
   main {
     height: 200vh;
-    max-width: 480px;
+    max-width: 32rem;
     margin: 0 auto;
   }
 
   .container {
     width: 21.6667rem;
-    height: 88.3333rem;
+    height: auto;
     flex-wrap: nowrap;
     flex-direction: column; 
+    text-align: center;
   }
 
-  .top-sections, .bottom-sections {
+  .top-box-left {
     width: 100%;
-    text-align: center;
+    margin-bottom: 2.1333rem;
+  }
+
+  .top-box-right {
+    width: 100%;
+    margin-bottom: 3.2rem;
+  }
+
+  .bottom-box {
+    width: 100%;
+    margin-top: 0px;
   }
 
   .title {
@@ -29,7 +40,7 @@
   }
 
   .description {
-    font-size: 17.8395px;
+    font-size: 1.1893rem;
     margin-top: 1.3rem;
   }
 
@@ -39,23 +50,12 @@
 
   .rate {
     height: 5.2667rem;
+    width: 100%;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding: 0;
-  }
-
-  .t-right-sub {
-    display: flex;
-  }
-
-  .a, .b {
-    margin: 0;
-    margin-bottom: 1rem;
-  }
-
-  .c {
-    margin: 0 0 0.5333rem;
+    margin-bottom: 0px;
   }
 
   .rate-label {
@@ -64,9 +64,9 @@
 
   .review-card {
     height: 16.5333rem;
+    width: 100%;
     padding: 2.6667rem 2rem 0;
     text-align: left;
-    margin-bottom: 1.1333rem;
   }
 
   .review {
